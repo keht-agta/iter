@@ -6,8 +6,8 @@ import types
 
 
 def flat_generator(list_of_lists):
-    for list in list_of_lists:
-        for item in list:
+    for list_new in list_of_lists:
+        for item in list_new:
             yield item
 
 
